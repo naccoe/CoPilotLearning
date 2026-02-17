@@ -1,0 +1,18 @@
+employee_id,name,role,department,email,phone,employment_status,status
+EMP1001,Dr. Emily Chen,Physician,Family Medicine,echen@healthbridge.com,555-0201,Full-time,Active
+EMP1002,Dr. James Wilson,Physician,Family Medicine,jwilson@healthbridge.com,555-0202,Full-time,Active
+EMP1003,Dr. Sarah Martinez,Physician,Internal Medicine,smartinez@healthbridge.com,555-0203,Full-time,Active
+EMP1004,Dr. Michael Brown,Physician,Pediatrics,mbrown@healthbridge.com,555-0204,Full-time,Active
+EMP1005,Dr. Lisa Anderson,Physician,Family Medicine,landerson@healthbridge.com,555-0205,Full-time,Active
+EMP1006,"Jennifer Lopez, NP",Nurse Practitioner,Family Medicine,jlopez@healthbridge.com,555-0301,Full-time,Active
+EMP1007,"David Kim, NP",Nurse Practitioner,Internal Medicine,dkim@healthbridge.com,555-0302,Full-time,Active
+EMP1008,Marcus Johnson,Medical Assistant,Clinical Services,mjohnson@healthbridge.com,555-0401,Full-time,Active
+EMP1009,Jessica Taylor,Medical Assistant,Clinical Services,jtaylor@healthbridge.com,555-0402,Full-time,Active
+EMP1010,Robert Lee,Medical Assistant,Clinical Services,rlee@healthbridge.com,555-0403,Full-time,Active
+EMP1011,Sarah Martinez,Receptionist,Patient Services,smartinez2@healthbridge.com,555-0501,Full-time,Active
+EMP1012,Amanda White,Receptionist,Patient Services,awhite@healthbridge.com,555-0502,Full-time,Active
+EMP1013,Carlos Rodriguez,Receptionist,Patient Services,crodriguez@healthbridge.com,555-0503,Part-time,Active
+EMP1014,Patricia O'Brien,Billing Specialist,Revenue Cycle,pobrien@healthbridge.com,555-0601,Full-time,Active
+EMP1015,Kevin Davis,Billing Specialist,Revenue Cycle,kdavis@healthbridge.com,555-0602,Full-time,Active
+EMP1016,Rebecca Thompson,Office Manager,Administration,rthompson@healthbridge.com,555-0701,Full-time,Active
+EMP1017,Daniel Park,IT Administrator,IT,dpark@healthbridge.com,555-0702,Full-time,Active

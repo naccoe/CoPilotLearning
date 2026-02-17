@@ -1,0 +1,29 @@
+item_id,item_name,category,vendor,current_quantity,reorder_point,par_level,unit_cost,last_order_date,expiration_date,status,notes
+INV001,Examination gloves (box of 100),Supplies,McKesson,0,40,150,12.99,2026-01-23,,Out of Stock,URGENT: Order needed immediately
+INV002,Alcohol prep pads (box of 200),Supplies,BD,0,40,150,8.50,2026-01-24,,Out of Stock,URGENT: Order needed immediately
+INV003,Gauze pads 4x4 (box of 100),Supplies,Covidien,192,40,150,15.75,2025-12-26,,In Stock,
+INV004,Cotton swabs (box of 500),Supplies,Puritan,17,40,150,6.25,2026-02-05,,Low Stock,Reorder recommended
+INV005,Adhesive bandages (box of 100),Supplies,Band-Aid,0,40,150,9.99,2025-12-26,,Out of Stock,URGENT: Order needed immediately
+INV006,Tongue depressors (box of 500),Supplies,Medline,81,40,150,11.50,2026-01-27,,In Stock,
+INV007,Thermometer probe covers (box of 250),Supplies,Welch Allyn,147,40,150,18.00,2026-02-10,,In Stock,
+INV008,Disposable gowns (box of 50),Supplies,Medline,398,40,150,45.00,2026-01-05,,Overstock,
+INV009,Syringes 3ml (box of 100),Supplies,BD,178,40,150,22.50,2026-01-05,,In Stock,
+INV010,Needles 25G (box of 100),Supplies,BD,102,40,150,18.75,2026-01-10,,In Stock,
+INV011,Needles 22G (box of 100),Supplies,BD,85,40,150,18.75,2026-02-02,,In Stock,
+INV012,Alcohol swabs (box of 200),Supplies,BD,148,40,150,7.50,2026-01-13,,In Stock,
+INV013,Blood collection tubes (box of 100),Lab,Vacutainer,188,40,150,35.00,2026-01-02,2028-01-15,In Stock,
+INV014,Urine specimen cups (box of 100),Lab,Medline,58,40,150,28.50,2026-01-14,2027-02-15,In Stock,
+INV015,Rapid strep test kits (box of 25),Lab,Quidel,13,40,150,125.00,2026-01-08,2026-02-20,Low Stock,Reorder recommended
+INV016,Rapid flu test kits (box of 25),Lab,Quidel,122,40,150,150.00,2026-01-04,2027-01-08,In Stock,
+INV017,Glucometer test strips (box of 50),Lab,OneTouch,0,40,150,45.00,2025-12-19,2026-10-17,Out of Stock,URGENT: Order needed immediately
+INV018,Flu vaccine (box of 10),Vaccine,Sanofi,119,40,150,180.00,2026-01-01,2026-03-28,In Stock,
+INV019,Tdap vaccine (box of 10),Vaccine,GSK,0,40,150,220.00,2026-01-03,2026-02-28,Out of Stock,URGENT: Order needed immediately
+INV020,Pneumococcal vaccine (box of 10),Vaccine,Pfizer,83,40,150,1950.00,2025-12-26,2028-01-16,In Stock,
+INV021,MMR vaccine (box of 10),Vaccine,Merck,95,40,150,850.00,2026-02-09,2027-04-01,In Stock,
+INV022,Amoxicillin 500mg samples (box of 30),Medication,Various,60,40,150,0.00,2026-01-26,2027-04-09,In Stock,
+INV023,Azithromycin 250mg samples (box of 18),Medication,Various,143,40,150,0.00,2025-12-22,2026-09-03,In Stock,
+INV024,Albuterol inhaler samples (box of 5),Medication,Various,55,40,150,0.00,2026-02-10,2027-09-01,In Stock,
+INV025,Omeprazole 20mg samples (box of 30),Medication,Various,58,40,150,0.00,2026-02-09,2028-01-07,In Stock,
+INV026,Copy paper (case of 10 reams),Office,Office Depot,0,40,150,45.00,2025-12-19,,Out of Stock,URGENT: Order needed immediately
+INV027,Patient charts (box of 100),Office,Staples,94,40,150,35.00,2026-02-11,,In Stock,
+INV028,Prescription pads (box of 10),Office,Medline,196,40,150,28.00,2026-01-04,,In Stock,

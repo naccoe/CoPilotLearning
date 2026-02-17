@@ -1,0 +1,11 @@
+provider_id,provider_name,plan_type,phone,claims_email,status
+INS001,BlueCross BlueShield,PPO,800-555-0101,claims@bcbs.com,Active
+INS002,United Healthcare,HMO,800-555-0102,claims@uhc.com,Active
+INS003,Aetna,PPO,800-555-0103,claims@aetna.com,Active
+INS004,Cigna,PPO,800-555-0104,claims@cigna.com,Active
+INS005,Humana,HMO,800-555-0105,claims@humana.com,Active
+INS006,Medicare,Government,800-555-0106,medicare@cms.gov,Active
+INS007,Medicaid,Government,800-555-0107,medicaid@state.gov,Active
+INS008,Kaiser Permanente,HMO,800-555-0108,claims@kaiser.com,Active
+INS009,Anthem,PPO,800-555-0109,claims@anthem.com,Active
+INS010,Oscar Health,EPO,800-555-0110,claims@oscar.com,Active
