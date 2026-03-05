@@ -1,0 +1,47 @@
+name: "🗣️ General Feedback"
+description: Share overall impressions, experience feedback, or anything that doesn't fit the other categories
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: overall-rating
+    attributes:
+      label: Overall, how would you rate the training experience?
+      options:
+        - ⭐⭐⭐⭐⭐ Excellent
+        - ⭐⭐⭐⭐ Good
+        - ⭐⭐⭐ Average
+        - ⭐⭐ Below expectations
+        - ⭐ Poor
+    validations:
+      required: true
+  - type: textarea
+    id: what-worked
+    attributes:
+      label: What worked well?
+      description: What aspects of the training did you find most valuable?
+    validations:
+      required: true
+  - type: textarea
+    id: what-didnt
+    attributes:
+      label: What didn't work or could be improved?
+    validations:
+      required: true
+  - type: dropdown
+    id: readiness
+    attributes:
+      label: After completing the training, how confident are you in positioning Microsoft Copilot Agents with customers?
+      options:
+        - Very confident — ready to lead the conversation
+        - Somewhat confident — could do it with support
+        - Not yet confident — need more practice
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: Any other thoughts, suggestions, or comments.
+    validations:
+      required: false

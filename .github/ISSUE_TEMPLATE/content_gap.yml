@@ -1,0 +1,46 @@
+name: "📝 Content Gap"
+description: Flag missing, unclear, or incomplete content in the training environment
+title: "[Content Gap]: "
+labels: ["content-gap"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did you notice the gap?
+      options:
+        - Data (CSV files)
+        - Personas
+        - Workflows
+        - Documentation (Getting Started, Data Dictionary, etc.)
+        - Scenario Instructions
+        - README
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What's missing or unclear?
+      description: Describe the gap and where you noticed it. Reference specific files or sections if possible.
+      placeholder: "The billing workflow doesn't cover the scenario where..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: How would you recommend addressing this gap?
+      placeholder: "It would help to add a section that covers..."
+    validations:
+      required: false
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How much did this impact your ability to complete the training?
+      options:
+        - Blocker — couldn't proceed
+        - Significant — had to work around it
+        - Minor — noticed it but kept going
+        - Cosmetic — nice to fix but no real impact
+    validations:
+      required: true

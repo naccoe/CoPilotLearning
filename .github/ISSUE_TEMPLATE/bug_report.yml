@@ -1,0 +1,54 @@
+name: "🐛 Bug / Error Report"
+description: Report an error, broken data, or incorrect behavior in a training scenario
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: scenario
+    attributes:
+      label: Which scenario or area were you working in?
+      options:
+        - Appointment Scheduler
+        - Insurance Verification Assistant
+        - Patient Communication Hub
+        - Clinical Documentation Helper
+        - Billing & Claims Manager
+        - Inventory Intelligence
+        - Data / CSV Files
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: skill-level
+    attributes:
+      label: Scenario difficulty level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - N/A
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue you encountered. Include steps to reproduce if possible.
+      placeholder: "I was building the appointment scheduling agent and..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: "The agent should have..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Paste any relevant screenshots, error messages, or logs.
+    validations:
+      required: false
